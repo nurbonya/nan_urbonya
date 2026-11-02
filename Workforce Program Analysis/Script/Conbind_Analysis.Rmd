@@ -1,0 +1,29 @@
+---
+title: "Untitled"
+output: pdf_document
+date: "2025-02-19"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Combined Service data and perl data and Analysis
+
+```{r}
+str(wioa_service)
+
+colnames(wioa_service)<- c("Program","Service_code","Service_name","Date_created","Date_provide","Projected_begin","Projected_end","Last_day","Results","username","State_id","Staff","Agency_edited","Created_by","Agency_created","Method_service")
+
+ind_wioa<- distinct(wioa_service, Program, Service_code, Date_provide, username, State_id, Staff, .keep_all = TRUE)
+
+ind_wioa<- ind_wioa %>% filter(Program!= "Show-Me Heroes - OJT" & Program != "Skill Up St. Louis")
+
+ind_wioa$Program<- ifelse(ind_wioa$Program=="Title I - Workforce Development (WIOA)", "WIOA","TAA")
+```
+
+
+```{r}
+## grepl("Soft", Created_by, ignore.case = TRUE)
+
+```
