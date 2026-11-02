@@ -274,8 +274,7 @@ Workforce-Data-Migration-SQL/
 ├── Documentation/
 │   ├── Data_Dictionary.md
 │   ├── Business_Questions.md
-│   └── Query_Logic.md
-│
+│   │
 └── Screenshots/
     ├── JobOrder_Query.png
     ├── Employer_Query.png
