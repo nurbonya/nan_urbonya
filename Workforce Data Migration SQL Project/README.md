@@ -1,309 +1,299 @@
 # Workforce Data Migration & Business Intelligence with SQL
 
-## Overview
+## Project Overview
 
-This project demonstrates advanced SQL development skills through the design of data extraction and transformation solutions used during a workforce system platform migration. The objective was to consolidate employer and job order data from multiple source tables, apply business rules, standardize fields, and generate reporting-ready datasets.
+This project demonstrates SQL-based data transformation, migration support, and reporting preparation work completed during a workforce system modernization initiative.
 
-The project consists of two production-level SQL queries developed to support data conversion, validation, reporting, and business intelligence activities.
+The organization transitioned from a legacy workforce management platform to a new workforce system. As part of the migration effort, employer records, job orders, workforce services, and related organizational data needed to be transformed and aligned to a new data model.
 
----
+Because the source and target systems used different structures, field definitions, and business rules, the data could not be transferred directly. SQL was used to extract, transform, standardize, and validate records to support migration activities and reporting requirements.
 
-## Project Objectives
-
-- Extract and transform workforce system data for platform migration.
-- Consolidate information from multiple relational database tables.
-- Standardize and validate data elements.
-- Create reporting-ready datasets.
-- Support workforce analytics and operational reporting.
-- Improve data quality and consistency across systems.
+The repository contains anonymized examples of production-level SQL transformation logic used to prepare workforce data for migration and business intelligence reporting.
 
 ---
-
-## Technologies Used
-
-- Microsoft SQL Server
-- T-SQL
-- SQL Server Management Studio (SSMS)
-- Data Migration & Conversion
-- Business Intelligence Reporting
-
----
-
-## SQL Skills Demonstrated
-
-### Advanced Query Development
-- Complex multi-table joins
-- LEFT JOIN operations
-- OUTER APPLY logic
-- Data transformation techniques
-- Conditional business rules
-
-### Data Engineering
-- Data cleansing
-- Data standardization
-- Data validation
-- Data mapping
-- Reporting dataset creation
-
-### Advanced SQL Functions
-- STRING_AGG()
-- STRING_SPLIT()
-- CONCAT()
-- CONCAT_WS()
-- CASE Statements
-- CAST()
-- SUBSTRING()
-- LTRIM() / RTRIM()
-
-### Business Intelligence
-- Workforce Analytics
-- Labor Market Data
-- Employer Analysis
-- Job Order Analysis
-- Benefits Analysis
-- Geographic Analysis
-
----
-
-# Project 1: Job Order Data Extraction
 
 ## Business Problem
 
-As part of a workforce platform migration initiative, business users required a consolidated view of active job orders that included employer information, application methods, compensation details, benefits, location data, and workforce participation indicators.
+A large-scale system migration required workforce data to be moved from a legacy platform into a newly implemented workforce management system.
 
-The source information existed across multiple relational tables, requiring extensive transformation and business rule implementation.
+Key migration challenges included:
 
----
+- Different data models between source and target systems
+- Changes in business definitions and reporting requirements
+- Preservation of relationships between employers, job orders, services, and organizational records
+- Standardization of values across systems
+- Validation of migrated data prior to reporting and operational use
 
-## Solution
-
-Developed an advanced SQL query that integrates job order information from numerous source tables and converts raw transactional data into a business-friendly reporting structure.
-
-### Key Features
-
-- Retrieves active job postings
-- Maps employer information
-- Formats O*NET-SOC occupation codes
-- Standardizes application methods
-- Determines application URLs
-- Extracts compensation information
-- Aggregates employer benefits
-- Aggregates job-specific benefits
-- Identifies veteran preference positions
-- Flags second-chance employment opportunities
-- Integrates geographic location information
-- Applies business validation rules
+The goal was to create reliable, reporting-ready datasets that accurately reflected workforce information within the new system environment.
 
 ---
 
-## Data Sources Utilized
+## My Contribution
 
-| Table | Purpose |
-|---------|---------|
-| joborders | Core job posting information |
-| emp | Employer information |
-| empworksite | Location details |
-| edulevel | Education requirements |
-| tbl_eidA1 | Address information |
-| georegion | Geographic mapping |
-| jobordersbenefits | Job benefits |
-| benefits | Benefit descriptions |
-| jostatus | Job posting status |
+I developed SQL extraction and transformation logic to support workforce data migration and reporting activities.
 
----
+Responsibilities included:
 
-## Business Questions Answered
-
-### Workforce Analysis
-
-- Which employers currently have active job openings?
-- What positions are available by location?
-- What salary ranges are being offered?
-- Which occupations are in demand?
-- Which positions provide benefits?
-
-### Program Analysis
-
-- Which employers support veterans?
-- Which employers offer second-chance employment opportunities?
-- What application methods are available to job seekers?
+- Analyzing source and target data structures
+- Mapping legacy fields to new system requirements
+- Building multi-table joins across workforce data sources
+- Implementing business-rule transformations
+- Preparing reporting-ready datasets
+- Supporting data quality review and validation activities
+- Documenting transformation logic and data mappings
 
 ---
 
-## Sample Output Fields
+## Repository Contents
 
-| Field |
-|---------|
-| JobID |
-| EmployerID |
-| JobTitle |
-| CompanyName |
-| ONETSOCCode |
-| ApplyMethod |
-| ApplyURL |
-| OpenDate |
-| CloseDate |
-| EmploymentType |
-| CompensationType |
-| CompensationMin |
-| CompensationMax |
-| EmployerBenefits |
-| JobBenefits |
-| Veterans |
-| ReEntryFriendly |
-| JobStatus |
+| File | Description |
+|--------|-------------|
+| Workforce_Migration_Query_1.sql | SQL transformation logic for workforce and organizational data extraction |
+| Workforce_Migration_Query_2.sql | SQL transformation logic for workforce services and reporting preparation |
+| README.md | Project documentation and methodology |
 
 ---
 
-# Project 2: Employer Data Extraction
+## Important Note About Anonymization
 
-## Business Problem
+This repository contains an anonymized representation of production SQL work.
 
-Employer records required standardization and validation before migration into the new workforce platform. Information was distributed across multiple tables and required transformation to support reporting and operational processes.
+To protect confidential information:
 
----
+- Table names have been renamed
+- Column names have been modified
+- Business terminology has been generalized where necessary
+- Sample outputs are synthetic examples
+- No actual employee, employer, customer, or organizational records are included
 
-## Solution
-
-Developed a companion SQL extraction process that consolidates employer data into a standardized and reporting-ready format.
-
-### Key Features
-
-- Employer profile extraction
-- Company information standardization
-- Contact information consolidation
-- Website and application URL mapping
-- Benefits analysis
-- Data quality validation
-- Migration readiness support
+The SQL techniques, transformation methods, and migration approach reflect the original project while protecting sensitive information.
 
 ---
 
-## Business Questions Answered
+## Data Migration Process
 
-- Which employers are actively recruiting?
-- Which employers provide benefits?
-- What industries are represented?
-- Which employers participate in workforce programs?
-- Which employers support second-chance hiring initiatives?
+### Source System
 
----
+The legacy workforce platform contained information related to:
 
-# Technical Highlights
+- Employers
+- Job Orders
+- Workforce Services
+- Organizational Structures
+- Related Reporting Attributes
 
-## Data Transformation
+### Target System
 
-Implemented business rules using CASE statements to transform raw source data into meaningful business information.
+The new workforce platform introduced:
 
-Examples include:
+- Updated data structures
+- New reporting requirements
+- Revised field definitions
+- Standardized business classifications
+- Different entity relationships
 
-- Compensation type classification
-- Application method standardization
-- Benefits mapping
-- Veteran preference indicators
-- Re-entry employer identification
+### Transformation Objectives
 
----
+The SQL queries were developed to:
 
-## Data Aggregation
-
-Used STRING_AGG() to combine related records into reporting-friendly fields.
-
-Examples:
-
-- Employer benefits
-- Job benefits
-- Application methods
+1. Extract workforce data from multiple source tables
+2. Standardize field values
+3. Apply business-rule mappings
+4. Preserve key relationships between records
+5. Create reporting-ready datasets
+6. Support migration validation efforts
 
 ---
 
-## Data Cleansing
+## Example Business Rule
 
-Implemented standardization techniques to improve match rates and data quality:
+### Business Requirement
 
-- Character cleanup
-- Whitespace removal
-- Null handling
-- Format normalization
-- Data validation
+Several workforce classifications within the legacy system needed to be mapped to standardized reporting categories required by the new platform.
 
----
+### SQL Solution
 
-## Performance Considerations
+Conditional mapping logic was implemented using CASE expressions and lookup relationships to translate source-system values into target-system reporting categories.
 
-The queries were designed to:
+### Why It Mattered
 
-- Minimize duplicated records
-- Create reporting-ready outputs
-- Reduce manual data preparation
-- Support migration validation efforts
-- Improve downstream reporting efficiency
+Without standardized classifications:
 
----
+- Reporting totals would not reconcile
+- Similar records could be categorized differently
+- Migration validation would be difficult
+- Business users would receive inconsistent reports
 
-# Project Results
+### Validation Approach
 
-### Business Impact
+The mapped results were reviewed through:
 
-- Improved migration readiness.
-- Reduced manual reporting effort.
-- Increased consistency of workforce data.
-- Enhanced reporting capabilities.
-- Supported validation and quality assurance activities.
-
-### Technical Impact
-
-- Automated extraction of complex workforce datasets.
-- Standardized employer and job order reporting.
-- Integrated multiple data sources into a unified output.
-- Simplified business-user access to workforce information.
+- Source-to-target count comparisons
+- Category total reconciliation
+- Identification of unmapped values
+- Sample record review
+- Exception reporting
 
 ---
 
-# Repository Structure
+## SQL Techniques Demonstrated
 
-```text
-Workforce-Data-Migration-SQL/
-│
-├── README.md
-│
-├── SQL/
-│   ├── JobOrder_Extraction.sql
-│   └── Employer_Extraction.sql
-│
-├── Documentation/
-│   ├── Data_Dictionary.md
-│   ├── Business_Questions.md
-│   │
-└── Screenshots/
-    ├── JobOrder_Query.png
-    ├── Employer_Query.png
-    └── Sample_Output.png
-```
+This project includes examples of:
+
+- Multi-table JOIN operations
+- Conditional logic using CASE statements
+- Data transformation and standardization
+- Aggregations and summary calculations
+- Data-quality validation techniques
+- Lookup-table mapping
+- URL construction and formatting
+- Business-rule implementation
+- Reporting dataset preparation
 
 ---
 
-# Key Takeaways
+## Data Dictionary (Published Version)
 
-This project showcases the application of advanced SQL techniques to solve real-world business problems involving data conversion, reporting, and workforce analytics.
+The public repository uses anonymized table names.
 
-Through the development of complex extraction and transformation processes, the project highlights expertise in:
+| Published Table Name | Purpose |
+|----------------------|----------|
+| PositionTable | Position and workforce assignment data |
+| OrganizationTable | Organizational hierarchy information |
+| EmployerTable | Employer-related records |
+| ServiceTable | Workforce service activity |
+| BenefitTable | Benefit and related reporting information |
 
-- Advanced SQL Development
+*Names may differ from the original production environment.*
+
+---
+
+## Expected Output
+
+The resulting datasets were designed to support reporting, validation, and migration review activities.
+
+### Output Grain
+
+Depending on the query:
+
+- One record per employee-position relationship
+- One record per employer-service relationship
+- One record per reporting transaction
+
+### Synthetic Example Output
+
+| EmployeeID | EmployerName | ServiceType | PositionTitle | Organization |
+|------------|-------------|-------------|--------------|-------------|
+| 10001 | Alpha Manufacturing | Recruitment Assistance | Workforce Analyst | Operations |
+| 10002 | Delta Logistics | Training Service | Program Specialist | Workforce Programs |
+| 10003 | Midwest Industries | Hiring Event Support | Business Services Analyst | Employer Services |
+
+**Note:** Example data shown above is fictional and used for demonstration purposes only.
+
+---
+
+## Data Validation & Quality Checks
+
+Several validation methods were used to confirm transformation accuracy.
+
+### 1. Record Count Reconciliation
+
+Compared source-system and transformed record counts to identify missing or unexpected records.
+
+### 2. Duplicate Detection
+
+Reviewed primary business identifiers to ensure joins did not introduce duplicate records.
+
+### 3. Null Value Analysis
+
+Validated required reporting fields for missing values.
+
+### 4. Join Validation
+
+Verified expected relationships between employers, job orders, services, and organizational data.
+
+### 5. Exception Review
+
+Investigated records that failed mapping rules or did not align with target-system requirements.
+
+### 6. Reporting Review
+
+Compared transformed output against expected reporting requirements and business definitions.
+
+---
+
+## Project Limitations
+
+This repository is intended to demonstrate SQL development and data transformation techniques.
+
+The published scripts:
+
+- Are anonymized
+- Do not connect to a live database
+- Do not contain production data
+- Use modified table and field names
+
+Performance metrics and business outcomes are intentionally not reported because the public version has not been executed against a production environment.
+
+---
+
+## Key Learnings
+
+This project reinforced the importance of:
+
+- Data governance during system migrations
+- Understanding source and target business definitions
+- Building sustainable transformation logic
+- Validating data throughout migration efforts
+- Creating reporting-ready datasets for business users
+- Supporting business intelligence initiatives through data quality practices
+
+---
+
+## Skills Demonstrated
+
+### Data Analytics
+
+- Data Transformation
+- Data Standardization
+- Data Validation
+- Data Quality Analysis
 - Business Intelligence
-- Workforce Analytics
-- Data Migration
-- Data Quality Management
-- Relational Database Design
-- Reporting & Analytics
-- Enterprise Data Transformation
+
+### SQL Development
+
+- Joins
+- CASE Statements
+- Aggregations
+- Filtering
+- Subqueries
+- Data Mapping
+- Reporting Queries
+
+### Business Analysis
+
+- Requirements Interpretation
+- Business Rule Implementation
+- Migration Support
+- Data Documentation
+- Reporting Preparation
 
 ---
 
-## Author
+## Technologies
 
-**Nan Urbonya**
+- SQL
+- Relational Databases
+- Business Intelligence Reporting
+- Data Migration Methodologies
+- Workforce Analytics
 
-Data Analytics | Workforce Analytics | Business Intelligence | SQL Development
+---
+
+## Portfolio Purpose
+
+This project is included in my portfolio to demonstrate experience supporting complex data migration and reporting initiatives through SQL development, data transformation, business-rule implementation, and data-quality validation.
+
+It highlights how analytical and technical skills can be applied to real-world workforce modernization projects where accurate data migration and reporting are critical to operational success.
 
 Passionate about transforming complex data into actionable insights that support workforce development, operational decision-making, and business performance.
