@@ -1,0 +1,12 @@
+1
+OrganizationID,OrganizationName,StandardizedWebsite,PhoneNumber,IdentifierType,IdentifierValue,AddressLine1,City,StateCode,PostalCode,CountryCode,RegionName,TradeName,SiteName,SiteAddress,SiteCity,SiteRegion,SiteState,SitePostalCode,SiteCountry,IndustryCode,FirstName,LastName,EmailAddress,AdminPhoneNumber,JobTitle
+2
+1001,Alpha Manufacturing,https://www.alphamfg.com,5735551000,Business ID,BID123456,100 Main St,Jefferson City,MO,65101,US,Central Region,Alpha MFG HQ,Headquarters,100 Main St,Jefferson City,Central Region,MO,65101,US,332710,John,Smith,john.smith@alphamfg.com,5735551001,HR Director
+3
+1002,Delta Logistics,https://www.deltalogistics.com,3145552000,Registration ID,RID982341,200 Commerce Blvd,St Louis,MO,63101,US,Eastern Region,Delta Logistics Corp,Main Office,200 Commerce Blvd,St Louis,Eastern Region,MO,63101,US,484110,Susan,Williams,swilliams@deltalogistics.com,3145552002,Operations Manager
+4
+1003,Midwest Healthcare,https://www.midwesthealth.org,4175553000,Business ID,BID765432,300 Medical Dr,Springfield,MO,65801,US,Southwest Region,Midwest Health,Regional Office,300 Medical Dr,Springfield,Southwest Region,MO,65801,US,622110,David,Brown,dbrown@midwesthealth.org,4175553003,Talent Acquisition Manager
+5
+1004,River Valley Bank,https://www.rivervalleybank.com,8165554000,Business ID,BID998877,400 Market St,Kansas City,MO,64101,US,Western Region,River Valley Bank,Corporate Office,400 Market St,Kansas City,Western Region,MO,64101,US,522110,Jennifer,Clark,jclark@rivervalleybank.com,8165554004,Recruiting Lead
+6
+1005,Ozark Technology Solutions,https://www.ozarktech.com,5735555000,Registration ID,RID224466,500 Innovation Way,Columbia,MO,65201,US,Central Region,Ozark Tech,Tech Center,500 Innovation Way,Columbia,Central Region,MO,65201,US,541511,Michael,Lee,mlee@ozarktech.com,5735555005,Human Resources Manager
