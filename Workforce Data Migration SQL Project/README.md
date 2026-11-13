@@ -142,6 +142,30 @@ Relationships between organizations, locations, contacts, and benefits were revi
 Business-rule outputs were reviewed to identify unmapped or unexpected values.
 
 ---
+## Sample Outputs
+
+The repository includes synthetic sample outputs that demonstrate the structure and grain of the transformed datasets.
+
+Files:
+
+- Documentation/Sample_Employer_Output.csv
+- Documentation/Sample_JobOrder_Output.csv
+
+These files:
+
+- Do not contain production data
+- Use fictional organizations and contacts
+- Demonstrate expected output structure
+- Support query review without requiring database access
+
+Output validation included:
+
+- Record count reconciliation
+- Duplicate identifier checks
+- Required-field completeness review
+- Join relationship verification
+- Business-rule validation
+---
 
 ## Anonymization Notice
 
