@@ -1,0 +1,12 @@
+1
+JobID,OrganizationID,PositionTitle,OrganizationName,StandardizedCode,ApplyMethod,ApplyURL,OpenDate,CloseDate,EmploymentType,ScheduleType,RequirementDescription,SiteName,AddressLine,City,Region,StateCode,CountryCode,ZipCode,CompensationType,MinimumSalary,MaximumSalary,EmployerBenefits,PositionBenefits,SpecialProgram,StatusDescription
+2
+900001,1001,Workforce Analyst,Alpha Manufacturing,15-2051,"Email | Website",https://jobs.alphamfg.com,2024-01-15,2024-02-15,Full-Time,Day Shift,Bachelor Degree Required,Headquarters,100 Main St,Jefferson City,Central Region,MO,US,65101,Annual,55000,72000,"Health Insurance | Retirement Plan","Tuition Assistance | Flexible Schedule",No,Active
+3
+900002,1002,Logistics Coordinator,Delta Logistics,43-5071,"Website",https://careers.deltalogistics.com,2024-02-01,2024-03-01,Full-Time,Day Shift,Associate Degree Preferred,Main Office,200 Commerce Blvd,St Louis,Eastern Region,MO,US,63101,Annual,48000,62000,"Health Insurance | Dental","Signing Bonus",Yes,Active
+4
+900003,1003,Healthcare Recruiter,Midwest Healthcare,13-1071,"Email | Phone",https://apply.midwesthealth.org,2024-01-20,2024-02-28,Full-Time,Hybrid,Bachelor Degree Required,Regional Office,300 Medical Dr,Springfield,Southwest Region,MO,US,65801,Annual,58000,75000,"Health Insurance | Retirement Plan","Remote Work Option",No,Active
+5
+900004,1004,Commercial Loan Specialist,River Valley Bank,13-2072,"Website",https://careers.rivervalleybank.com,2024-03-01,2024-03-31,Full-Time,Day Shift,Bachelor Degree Preferred,Corporate Office,400 Market St,Kansas City,Western Region,MO,US,64101,Annual,60000,85000,"Medical | Dental | Vision","Professional Certification Support",No,Active
+6
+900005,1005,Data Analyst,Ozark Technology Solutions,15-2051,"Email | Website",https://jobs.ozarktech.com,2024-02-10,2024-03-10,Full-Time,Hybrid,Bachelor Degree Required,Tech Center,500 Innovation Way,Columbia,Central Region,MO,US,65201,Annual,65000,90000,"Health Insurance | Stock Purchase Plan","Remote Work Option | Tuition Assistance",Yes,Active
