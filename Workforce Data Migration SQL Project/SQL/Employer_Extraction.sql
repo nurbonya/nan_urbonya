@@ -1,18 +1,27 @@
 /*
 ===========================================================
-Project: Employer Analytics & Profile Consolidation
+
+Project: Workforce Data Migration
 Author: Nan Urbonya
 
 Purpose:
-Demonstrate advanced SQL techniques used for business
-intelligence reporting, data integration, and employer
-profile analysis.
+Extract active employer records for migration and
+reporting preparation.
 
-Note:
-This query has been anonymized for portfolio purposes.
-Table names, column names, and business logic have been
-modified to protect sensitive information while preserving
-the overall structure and SQL concepts.
+Business Context:
+Employer records were migrated from a legacy
+workforce platform into a new workforce system.
+
+This query demonstrates:
+
+- Data standardization
+- Business-rule implementation
+- Data cleansing
+- Migration filtering
+- Relationship preservation
+
+NOTE:
+The public version has been anonymized.
 ===========================================================
 */
 
