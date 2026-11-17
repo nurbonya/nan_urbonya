@@ -17,7 +17,7 @@ The goal is to provide **data-driven insights** that strengthen workforce servic
 - What barriers (low income, single parent, ex-offender, etc.) appear more often among Repeat participants?  
 - How do employment and credential outcomes compare across participant groups?  
 - Which training programs (CIP codes) show the strongest concentration of barriers?  
-- How have training enrollments shifted across PY2018–PY2024?
+- How have training enrollments shifted across PY2018–PY2025?
 
 ---
 
