@@ -5,7 +5,9 @@ Data Analyst | Business Intelligence Analyst | SQL • Python • Tableau • Po
 </h3>
 
 <p align="center">
-I transform complex workforce and education data into actionable insights that support business strategy, program evaluation, and data-driven decision making.
+
+I help workforce and education organizations transform complex operational data into reliable reporting and actionable insights.
+
 </p>
 
 ---
