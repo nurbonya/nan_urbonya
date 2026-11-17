@@ -1,28 +1,28 @@
+
 <h1 align="center">Hi 👋, I'm Nan Urbonya</h1>
 
 <h3 align="center">
-Data Analyst | Business Intelligence Analyst | SQL • Python • Tableau • Power BI
+Data Analyst | Workforce Analytics & Business Intelligence | SQL • Python • Tableau • Power BI
 </h3>
 
 <p align="center">
-
-I help workforce and education organizations transform complex operational data into reliable reporting and actionable insights.
-
+I help workforce and education organizations transform complex data into reliable reporting, actionable insights, and data-driven decisions.
 </p>
 
 ---
 
 ## 🚀 About Me
 
-- 📊 Data Analyst with experience in workforce analytics, business intelligence, and program evaluation
-- 🏛️ Currently supporting statewide workforce initiatives at the Missouri Department of Higher Education and Workforce Development
-- 🐍 Building analytical models using Python and SQL to support federal reporting and funding decisions
-- 📈 Developing dashboards and visualizations using Tableau and Power BI
-- 🤖 Interested in Artificial Intelligence, Workforce Analytics, Business Intelligence, and Predictive Analytics
+- 📊 Data Analyst with experience in workforce analytics, program evaluation, and business intelligence
+- 🏛️ Supporting statewide workforce initiatives at the Missouri Department of Higher Education and Workforce Development
+- 🐍 Using Python and SQL to analyze workforce data, develop reporting solutions, and support federal performance and funding decisions
+- 📈 Building Tableau and Power BI dashboards for program monitoring and stakeholder decision-making
+- ✅ Experienced in data validation, data quality review, and reporting process improvement
 - 🎓 M.S. in Data Science & Analytic Storytelling
-- 🌱 Currently expanding expertise in Data Engineering, Cloud Analytics, and AI Applications
+- 🌱 Expanding expertise in cloud analytics, data engineering, and AI applications
 
 ---
+
 
 ## 🛠️ Technical Skills
 
