@@ -41,7 +41,7 @@ Workforce development research project analyzing participant outcomes, service d
 - Data Visualization
 - Workforce Analytics
 
-🔗 Repository: Workforce_Program_Analysis 
+🔗 Repository: [Workforce Program Analysis](https://github.com/nurbonya/Workforce_Program_Analysis)
 
 ---
 
@@ -55,7 +55,7 @@ SQL project focused on transforming, validating, and migrating workforce data ac
 - ETL Concepts
 - Database Management
 
-🔗 Repository: Workforce_Data_Migration_SQL_Project
+🔗 Repository: [Workforce Data Migration SQL Project](https://github.com/nurbonya/Workforce_Data_Migration_SQL_Project)
 
 ---
 
