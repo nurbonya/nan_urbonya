@@ -2,81 +2,104 @@
 <h1 align="center">Hi 👋, I'm Nan Urbonya</h1>
 
 <h3 align="center">
-Data Analyst | Workforce Analytics & Business Intelligence | SQL • Python • Tableau • Power BI
+Data Analyst | Workforce Analytics & Business Intelligence | SQL • Python • R • Tableau • Power BI
 </h3>
 
 <p align="center">
-I help workforce and education organizations transform complex data into reliable reporting, actionable insights, and data-driven decisions.
+I help workforce and education organizations transform complex data into reliable reporting, actionable insights, and data-driven decision making.
 </p>
 
 ---
 
 ## 🚀 About Me
 
-- 📊 Data Analyst with experience in workforce analytics, program evaluation, and business intelligence
-- 🏛️ Supporting statewide workforce initiatives at the Missouri Department of Higher Education and Workforce Development
-- 🐍 Using Python and SQL to analyze workforce data, develop reporting solutions, and support federal performance and funding decisions
-- 📈 Building Tableau and Power BI dashboards for program monitoring and stakeholder decision-making
-- ✅ Experienced in data validation, data quality review, and reporting process improvement
-- 🎓 M.S. in Data Science & Analytic Storytelling
-- 🌱 Expanding expertise in cloud analytics, data engineering, and AI applications
+📊 Data Analyst with 4+ years of experience in workforce analytics, program evaluation, reporting automation, and business intelligence.
+
+🏛️ Supporting statewide workforce initiatives at the Missouri Department of Higher Education and Workforce Development.
+
+🐍 Using Python, SQL, R, and statistical analysis to improve reporting accuracy, streamline processes, and support data-driven decisions.
+
+📈 Building Tableau, Power BI, and R Shiny dashboards that help stakeholders monitor program performance and identify trends.
+
+✅ Experienced in data validation, federal performance reporting, data quality review, and process improvement.
+
+🎓 M.S. in Data Science & Analytic Storytelling.
+
+🌱 Currently expanding expertise in cloud analytics, data engineering, and applied AI solutions.
 
 ---
 
+## 📌 Featured Projects
+
+### Workforce Program Analysis
+Workforce development research project analyzing participant outcomes, service delivery patterns, and program performance metrics.
+
+**Skills Demonstrated**
+- R
+- R Markdown
+- Statistical Analysis
+- Data Visualization
+- Workforce Analytics
+
+🔗 Repository: Workforce_Program_Analysis 
+
+---
+
+### Workforce Data Migration SQL Project
+SQL project focused on transforming, validating, and migrating workforce data across systems while maintaining data integrity and reporting accuracy.
+
+**Skills Demonstrated**
+- SQL
+- Data Cleaning
+- Data Validation
+- ETL Concepts
+- Database Management
+
+🔗 Repository: Workforce_Data_Migration_SQL_Project
+
+---
 
 ## 🛠️ Technical Skills
 
 ### Programming Languages
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+
+https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white
+https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white
 
 ### Data Visualization
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=PowerBI&logoColor=black)
-![R Shiny](https://img.shields.io/badge/R%20Shiny-75AADB?style=for-the-badge)
 
-### Data Platforms
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white
+https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=PowerBI&logoColor=black
+https://img.shields.io/badge/R%20Shiny-75AADB?style=for-the-badge
+
+### Databases & Data Platforms
+
+https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white
+https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlecloud&logoColor=white
+https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white
 
 ### Cloud & Tools
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
----
-
-## 📂 Featured Projects
-
-### Workforce Program Analysis
-Analyzed multiple years of workforce development data to identify participant characteristics, retention patterns, and opportunities for targeted service delivery.
-
-### AI & Future Workforce Analysis
-Examined occupational trends and potential AI impacts on workforce demand to understand future changes in job functions.
-
-### Enrollment Trend Dashboard
-Developed an interactive R Shiny dashboard to monitor enrollment trends, marketing performance, and institutional metrics in real time.
-
-### AI Generated Image Detection
-Built deep learning models to distinguish between authentic and AI-generated images using computer vision techniques.
+https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white
+https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white
+https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white
 
 ---
 
 ## 📈 Core Competencies
 
-- Business Intelligence
 - Workforce Analytics
+- Business Intelligence
 - Data Visualization
 - SQL Development
 - Dashboard Design
 - Program Evaluation
+- Reporting Automation
 - KPI Development
+- Data Validation
+- Data Quality Review
 - Statistical Analysis
-- Data Quality & Validation
-- Data Modeling
-- Predictive Analytics
 - Stakeholder Reporting
 
 ---
@@ -89,13 +112,25 @@ Built deep learning models to distinguish between authentic and AI-generated ima
 
 ---
 
+## 🔄 Projects In Progress
+
+Future projects currently being refined before publication:
+
+- AI & Future Workforce Analysis
+- Enrollment Trend Dashboard
+- AI-Generated Image Detection
+
+---
+
 ## 📫 Connect With Me
 
-- LinkedIn: [(https://www.linkedin.com/in/nan-urbonya/)]
+- LinkedIn: https://www.linkedin.com/in/nan-urbonya/
 - Email: nan.urbonya@gmail.com
 
 ---
 
 ### 💡 Favorite Quote
 
- "Without data, you're just another person with an opinion." – W. Edwards Deming
+> "Without data, you're just another person with an opinion."
+>
+> — W. Edwards Deming
