@@ -71,7 +71,7 @@ SQL project focused on transforming, validating, and migrating workforce data ac
 
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
 ![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=PowerBI&logoColor=black)
-!R-Shiny](https://img.shields.io/badge/R%20Shiny-75AADB?style=for-the-badge)
+![R-Shiny](https://img.shields.io/badge/R%20Shiny-75AADB?style=for-the-badge)
 
 ### Databases & Data Platforms
 
